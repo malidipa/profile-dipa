@@ -33,15 +33,22 @@
                 background-color: yellow;
 
         }
+        ul li::before{
+            content: "👉";
+        }
+        
         ul li{
-            padding: 10px;
-            list-style-type: circle;
+            padding: 5px;
+            list-style-type: none;
             font-family: 'Poppins', sans-serif;
         }
         #text{
             font-family: 'Roboto', sans-serif;
         }
-        
+        ul li::selection{
+            list-style-type: none;
+            background-color:pink;
+        }
     </style>
 </head>
 <body>
